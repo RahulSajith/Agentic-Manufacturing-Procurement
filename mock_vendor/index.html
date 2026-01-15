@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scrap Labs Powder Supply</title>
+    <style>
+        body { font-family: sans-serif; padding: 40px; background: #f0f2f5; }
+        .product-card { background: white; border-radius: 8px; padding: 20px; width: 320px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .price { color: #d9534f; font-weight: bold; font-size: 1.5em; margin: 10px 0; }
+        .lead-time { color: #666; font-size: 0.9em; }
+        button { background: #007bff; color: white; border: none; padding: 12px; border-radius: 4px; cursor: pointer; width: 100%; font-weight: bold; }
+        button:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>Manufacturing Portal</h1>
+    <div class="product-card">
+        <h3>Titanium-X Powder (1kg)</h3>
+        <p class="lead-time">Delivery: 3-5 Business Days</p>
+        <p class="price" id="powder-price">$485.50</p>
+        <button id="quote-btn" onclick="this.innerText='Quote Sent!'; this.style.backgroundColor='#28a745';">Request Quote</button>
+    </div>
+</body>
+</html>
